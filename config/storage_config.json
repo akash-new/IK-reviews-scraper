@@ -1,0 +1,35 @@
+{
+  "enabled": false,
+  "google_sheets": {
+    "enabled": true,
+    "credentials_path": "credentials/google_sheets_credentials.json",
+    "spreadsheet_id": "1y_0qp6nI-x63YB_CxS6JAZb9WTuADQTeTqXbA6kJRNY",
+    "create_if_missing": true,
+    "sheet_name": "IK_Reviews",
+    "columns": [
+      "s_no",
+      "platform",
+      "review_date",
+      "rating",
+      "content",
+      "reviewer_name",
+      "sentiment_score",
+      "sentiment_category"
+    ],
+    "format_by_sentiment": true,
+    "create_dashboard": true,
+    "incremental_updates": true,
+    "error_handling": {
+      "max_retries": 3,
+      "retry_delay": 5,
+      "log_errors": true
+    },
+    "dashboard_options": {
+      "show_platform_distribution": true,
+      "show_sentiment_distribution": true,
+      "show_score_histogram": true,
+      "add_color_legend": true
+    },
+    "default_sheet_name": "IK_Reviews"
+  }
+}

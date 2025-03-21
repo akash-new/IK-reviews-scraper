@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "platforms_to_filter": [
+    "Trustpilot",
+    "Course Report"
+  ],
+  "filter_all_platforms": false
+}

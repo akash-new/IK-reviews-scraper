@@ -1,0 +1,50 @@
+[
+  {
+    "platform": "Trustpilot",
+    "reviewer_name": "John Smith",
+    "review_date": "2023-06-15",
+    "rating": 5,
+    "content": "I recently completed the Interview Kickstart program and it was excellent! The instructors were knowledgeable and the curriculum was comprehensive. I landed a job at a FAANG company within a month of completing the program. Highly recommended!",
+    "relevant": true,
+    "sentiment": {
+      "score": 100,
+      "category": "positive"
+    }
+  },
+  {
+    "platform": "Trustpilot",
+    "reviewer_name": "Jane Doe",
+    "review_date": "2023-07-20",
+    "rating": 3,
+    "content": "Interview Kickstart was okay. Some parts were useful, but I found the program overpriced for what it offers. The mock interviews were helpful, but the curriculum could use some updating.",
+    "relevant": true,
+    "sentiment": {
+      "score": 100,
+      "category": "positive"
+    }
+  },
+  {
+    "platform": "Course Report",
+    "reviewer_name": "Alice Johnson",
+    "review_date": "2023-08-10",
+    "rating": 1,
+    "content": "I wasted my money on Interview Kickstart. The content was outdated, the instructors were unprepared, and the support was terrible. I wouldn't recommend this program to anyone.",
+    "relevant": true,
+    "sentiment": {
+      "score": 33,
+      "category": "negative"
+    }
+  },
+  {
+    "platform": "Course Report",
+    "reviewer_name": "Bob Wilson",
+    "review_date": "2023-09-05",
+    "rating": 4,
+    "content": "The algorithm training at Interview Kickstart helped me improve my problem-solving skills. The system design content was excellent too. However, I think the behavioral interview preparation could be better.",
+    "relevant": true,
+    "sentiment": {
+      "score": 50,
+      "category": "neutral"
+    }
+  }
+]
